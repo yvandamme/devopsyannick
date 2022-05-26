@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: auth:latest
+        image: yannickvandamme/devops_auth
         ports:
           - containerPort: 3000
             name: http-web-svc
